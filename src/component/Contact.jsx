@@ -4,16 +4,17 @@ import { Button } from '@mui/material'
 const Contact = () => {
   return (
     <div className="bg-blue-100">
-     <h1 className="text-center text-xl p-10">Contact Us</h1>
-      <div className="p-20 border-2  border-black flex flex-col m-10">
-        <label className="text-l">Name</label>
-        <input type="text" placeholder="Enter Your Name" className=""/>
-        <label className="text-l">Subject</label>
-        <input type="text" placeholder="Enter Your Subject" className=""/>
-        <label className="text-l">Email</label>
-        <input type="text" placeholder="Enter Your Email" className=""/>
-        <label className="text-l">Message</label>
-        <input type="text" placeholder="Enter Your Message" className=""/>
+     <h1 className="text-center text-2xl pt-28 font-bold ">Contact Us</h1>
+      <div className="p-20  flex flex-col m-10 ">
+        <label className="text-l font-medium pb-2 ">Name</label>
+        <input type="text" placeholder="Enter Your Name"  className=" opacity-75 rounded-none outline-none outline-offset-0 shadow-none p-3 "/><br/>
+        <label className="text-l font-medium pb-2">Subject</label>
+        <input type="text" placeholder="Enter Your Subject" className=" opacity-75 rounded-none outline-none outline-offset-0 shadow-none p-3"/><br/>
+        <label className="text-l font-medium pb-2">Email</label>
+        <input type="text" placeholder="Enter Your Email" className=" opacity-75 rounded-none outline-none outline-offset-0 shadow-none p-3"/><br/>
+        <label className="text-l font-medium pb-2">Message</label>
+        <textarea type="text" placeholder="Enter Your Message"  className="mb-8  opacity-75 rounded-none outline-none outline-offset-0 shadow-none p-3" style={{"rows":10,"cols":50}}/><br/>
+        
         <Button variant="contained">Submit</Button>
       </div>
     </div>

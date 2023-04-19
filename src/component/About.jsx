@@ -1,11 +1,10 @@
 import React from 'react'
-import cartoon1 from './../cartoon1.jpg'
-import cartoon2 from './../cartoon2.jpg'
 
 const About = () => {
   return (
     <>
-    <div className="bg-red-600 w-52 h-52 text-center justify-center text-white pt-20 m-10 animation" style={{borderRadius:"30%"}}>OPCL TECH SERVICES</div>
+    <marquee><div className="bg-red-600 w-52 h-52 text-center justify-center text-white pt-20 m-10 animation" style={{borderRadius:"30%"}}>OPCL TECH SERVICES</div></marquee>
+
     <div className="grid grid-cols-3 max-md:grid-cols-1">  
         <p className="bg-red-200 border-2 h-96 w-96 text-center justify-center p-8 m-10 pt-12" style={{borderRadius:"30%"}}>
         <div className="text-xl font-bold  text-blue-900 mb-5">
@@ -29,7 +28,6 @@ const About = () => {
         </p>
         
         <p className="bg-blue-300 border-2 h-96 w-96 text-center justify-center p-8 m-10 pt-12" style={{borderRadius:"30%"}}>
-        Platform as a Service (PaaS):
         <div className="text-xl font-bold  text-blue-900 mb-5">
         Platform as a Service (PaaS)??
         </div>

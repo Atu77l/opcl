@@ -3,6 +3,7 @@ import Navbar from './Navbar'
 import Footer from './Footer'
 import About from './About'
 import Contact from './Contact'
+import Animation from './Animation'
 
 const Home = () => {
   return (
@@ -10,6 +11,7 @@ const Home = () => {
         <Navbar/>
         <About/>
         <Contact/>
+        <Animation/>
         <Footer/>
     </div>
   )
