@@ -13,7 +13,7 @@ const Navbar = () => {
       <img src={logo} alt="logo" className="h-24 w-24 ml-8"/>
       <MenuIcon sx={{margin:"20px",marginLeft:"20px",fontSize:"60px"}}onClick={()=>{setIsMenuOpen(!isMenuOpen);}}/>
       </div>
-      { isMenuOpen && <div className="flex flex-col pt-3 mt-3 text-center bg-white border-2 rounded shadow w-screen text-purple-500">
+      { isMenuOpen && <div className=" hidden pt-3 mt-3 text-center bg-white border-2 rounded shadow w-screen text-purple-500 max-md:flex max-md:flex-col">
         <div className=" text-xl font-bold hover:bg-sky-700 ">Home</div>
         <div className="text-xl font-bold hover:bg-sky-700 ">About</div>
         <div className="text-xl font-bold hover:bg-sky-700 ">Contact</div>
@@ -23,6 +23,7 @@ const Navbar = () => {
       }
    <div className="flex flex-col max-md:hidden">
     <div className="flex flex-row bg-blue-200 text-white"> 
+    <img src={logo} alt="logo" className="h-24 w-24 ml-8"/>
         <div className="flex flex-row pt-3  text-purple-500"style={{marginLeft:"750px"}}>
         <div className=" text-xl font-bold m-5">Home</div>
         <div className="text-xl font-bold m-5">About</div>
